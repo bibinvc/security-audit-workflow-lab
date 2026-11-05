@@ -1,0 +1,212 @@
+{
+  "synthetic": true,
+  "as_of": "2026-11-05",
+  "standards": [
+    "ISO 19011",
+    "ISO 27001",
+    "NEN 7510",
+    "ISO 9001",
+    "ISO 27701",
+    "ISO 27018"
+  ],
+  "risks": [
+    {
+      "id": 1,
+      "title": "Sample: access reviews lack follow-up",
+      "owner": "Process A",
+      "likelihood": 4,
+      "impact": 5,
+      "standard": "ISO 27001",
+      "score": 20
+    },
+    {
+      "id": 2,
+      "title": "Sample: privacy retention instructions unclear",
+      "owner": "Process B",
+      "likelihood": 3,
+      "impact": 4,
+      "standard": "NEN 7510",
+      "score": 12
+    },
+    {
+      "id": 3,
+      "title": "Sample: procedure version not visible",
+      "owner": "Process C",
+      "likelihood": 2,
+      "impact": 3,
+      "standard": "ISO 9001",
+      "score": 6
+    }
+  ],
+  "audits": [
+    {
+      "id": 1,
+      "risk_id": 1,
+      "auditor": "Auditor X",
+      "due": "2026-11-20",
+      "status": "Completed",
+      "risk": "Sample: access reviews lack follow-up",
+      "owner": "Process A",
+      "standard": "ISO 27001",
+      "score": 20
+    },
+    {
+      "id": 2,
+      "risk_id": 2,
+      "auditor": "Auditor Y",
+      "due": "2026-12-01",
+      "status": "Planned",
+      "risk": "Sample: privacy retention instructions unclear",
+      "owner": "Process B",
+      "standard": "NEN 7510",
+      "score": 12
+    },
+    {
+      "id": 3,
+      "risk_id": 3,
+      "auditor": "Auditor X",
+      "due": "2026-12-10",
+      "status": "Planned",
+      "risk": "Sample: procedure version not visible",
+      "owner": "Process C",
+      "standard": "ISO 9001",
+      "score": 6
+    }
+  ],
+  "findings": [
+    {
+      "id": 1,
+      "audit_id": 1,
+      "title": "Sample: no owner recorded for review actions",
+      "evidence": "DEMO-EVIDENCE-001: fictitious review sheet"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "finding_id": 1,
+      "title": "Sample: assign access-review follow-up owner",
+      "owner": "Action Owner A",
+      "due": "2026-11-03",
+      "status": "Open",
+      "evidence": "",
+      "reviewer": "",
+      "updated": "2026-11-05T16:30:19+00:00"
+    },
+    {
+      "id": 2,
+      "finding_id": 1,
+      "title": "Sample: document review procedure",
+      "owner": "Action Owner B",
+      "due": "2026-11-25",
+      "status": "Closed",
+      "evidence": "DEMO-EVIDENCE-002: fictitious revised procedure",
+      "reviewer": "Reviewer X",
+      "updated": "2026-11-05T16:30:19+00:00"
+    }
+  ],
+  "history": [
+    {
+      "id": 13,
+      "entity": "action",
+      "entity_id": 2,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Ready for review -> Closed; reviewer: Reviewer X; evidence: DEMO-EVIDENCE-002: fictitious revised procedure"
+    },
+    {
+      "id": 12,
+      "entity": "action",
+      "entity_id": 2,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "In progress -> Ready for review; reviewer: -; evidence: -"
+    },
+    {
+      "id": 11,
+      "entity": "action",
+      "entity_id": 2,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Open -> In progress; reviewer: -; evidence: -"
+    },
+    {
+      "id": 10,
+      "entity": "action",
+      "entity_id": 2,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Corrective action assigned; status Open"
+    },
+    {
+      "id": 9,
+      "entity": "action",
+      "entity_id": 1,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Corrective action assigned; status Open"
+    },
+    {
+      "id": 8,
+      "entity": "audit",
+      "entity_id": 1,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Audit marked completed after finding/evidence entry"
+    },
+    {
+      "id": 7,
+      "entity": "finding",
+      "entity_id": 1,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Finding recorded with evidence reference"
+    },
+    {
+      "id": 6,
+      "entity": "audit",
+      "entity_id": 3,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Independent auditor assigned; audit planned"
+    },
+    {
+      "id": 5,
+      "entity": "audit",
+      "entity_id": 2,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Independent auditor assigned; audit planned"
+    },
+    {
+      "id": 4,
+      "entity": "audit",
+      "entity_id": 1,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Independent auditor assigned; audit planned"
+    },
+    {
+      "id": 3,
+      "entity": "risk",
+      "entity_id": 3,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Risk registered"
+    },
+    {
+      "id": 2,
+      "entity": "risk",
+      "entity_id": 2,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Risk registered"
+    },
+    {
+      "id": 1,
+      "entity": "risk",
+      "entity_id": 1,
+      "at": "2026-11-05T16:30:19+00:00",
+      "detail": "Risk registered"
+    }
+  ],
+  "kpis": {
+    "actions_total": 2,
+    "actions_open": 1,
+    "actions_overdue": 1,
+    "actions_closed": 1,
+    "evidence_complete_closed": 1,
+    "closure_percent": 50.0,
+    "risks_total": 3,
+    "risks_audited": 1,
+    "risk_coverage_percent": 33.3
+  }
+}

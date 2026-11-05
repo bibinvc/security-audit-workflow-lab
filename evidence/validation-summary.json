@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-11-05T16:30:19.431538+00:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "tests": 17,
+  "test_status": "PASS",
+  "javascript_syntax": "PASS",
+  "sample_date": "2026-11-05",
+  "sample_kpis": {
+    "actions_total": 2,
+    "actions_open": 1,
+    "actions_overdue": 1,
+    "actions_closed": 1,
+    "evidence_complete_closed": 1,
+    "closure_percent": 50.0,
+    "risks_total": 3,
+    "risks_audited": 1,
+    "risk_coverage_percent": 33.3
+  },
+  "data": "Synthetic role labels only",
+  "standards_scope": "Indicative labels, not normative clause mapping or conformity",
+  "atlassian_scope": "Exports only; no live Jira or Confluence connection",
+  "browser_status": "PASS: sample risk creation, independence rejection, priority ordering, export downloads and reload persistence observed",
+  "browser_preview": "docs/screenshot.jpg"
+}

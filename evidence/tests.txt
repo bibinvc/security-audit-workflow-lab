@@ -1,0 +1,22 @@
+test_auditor_independence_case_insensitive (test_workflow.WorkflowTests.test_auditor_independence_case_insensitive) ... ok
+test_bad_date_and_unknown_standard (test_workflow.WorkflowTests.test_bad_date_and_unknown_standard) ... ok
+test_closure_needs_evidence_and_independent_reviewer (test_workflow.WorkflowTests.test_closure_needs_evidence_and_independent_reviewer) ... ok
+test_complete_requires_observation_evidence (test_workflow.WorkflowTests.test_complete_requires_observation_evidence) ... ok
+test_coverage_uses_distinct_completed_risks (test_workflow.WorkflowTests.test_coverage_uses_distinct_completed_risks) ... ok
+test_empty_denominators_are_null (test_workflow.WorkflowTests.test_empty_denominators_are_null) ... ok
+test_export_and_formula_escaping (test_workflow.WorkflowTests.test_export_and_formula_escaping) ... ok
+test_finding_evidence_required (test_workflow.WorkflowTests.test_finding_evidence_required) ... ok
+test_http_local_boundaries_and_json_write (test_workflow.WorkflowTests.test_http_local_boundaries_and_json_write) ... ok
+test_id_types_and_missing_records (test_workflow.WorkflowTests.test_id_types_and_missing_records) ... ok
+test_overdue_excludes_today_future_and_closed (test_workflow.WorkflowTests.test_overdue_excludes_today_future_and_closed) ... ok
+test_persistence (test_workflow.WorkflowTests.test_persistence) ... ok
+test_plan_orders_highest_exposure_first (test_workflow.WorkflowTests.test_plan_orders_highest_exposure_first) ... ok
+test_reject_shortcut_and_keep_history_atomic (test_workflow.WorkflowTests.test_reject_shortcut_and_keep_history_atomic) ... ok
+test_reopen_clears_closure_but_keeps_history (test_workflow.WorkflowTests.test_reopen_clears_closure_but_keeps_history) ... ok
+test_risk_score_bounds (test_workflow.WorkflowTests.test_risk_score_bounds) ... ok
+test_seed_is_idempotent_and_synthetic (test_workflow.WorkflowTests.test_seed_is_idempotent_and_synthetic) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.122s
+
+OK
